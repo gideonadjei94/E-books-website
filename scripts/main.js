@@ -185,3 +185,16 @@ themeButton.addEventListener('click', () => {
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr =ScrollReveal({
+    origin : 'top',
+    distance : '60px',
+    duration : 2500,
+    delay : 400,
+})
+
+sr.reveal(`.home-data, .featured-container , .new-container , .join-data,
+.testimonial-container , .footer`)
+sr.reveal(`.home-images` , {delay : 600})
+sr.reveal(`.services-card` , {interval : 100})
+sr.reveal(`.discount-data` , {origin : 'left'})
+sr.reveal(`.discount-images` , {origin : 'right'})
