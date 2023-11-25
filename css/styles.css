@@ -972,7 +972,7 @@ body.dark-theme{
 
   .nav-menu{
     width: initial;
-    margin-inline: auto 0;
+    margin-inline: auto;
   }
 
   .nav-list{
